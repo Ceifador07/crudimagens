@@ -12,3 +12,13 @@ body{
 .navbar ul li a{
     color: #fff !important;
 }
+.card-header{
+    /* width: 300px !important; */
+}
+.card-header img{
+    width: 230px; 
+    height:100%;
+}
+.navbar-text i{
+    color: #fff !important;
+}

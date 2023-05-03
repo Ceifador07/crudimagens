@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="public/css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container">
           <a class="navbar-brand" href="#">Agencia Dev</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -29,17 +29,102 @@
               </li>
             </ul>
             <span class="navbar-text">
-               <i class="fa-solid fa-shopping-cart"></i>
+               <i class="fa-solid fa-shopping-cart "></i>
             </span>
           </div>
         </div>
       </nav>
+      <div class="container mt-4">
+        <div class="row ">
+            <div class="col-3 mt-2">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="public/images/img (1).webp" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="fs-4">Comprimidos</h4>
+                        <span>Preco: 15.5Mt</span>
+                        <br>
+                        <span>Qt: 1</span>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary col-12">Adicionar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 mt-2">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="public/images/img (1).webp" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="fs-4">Comprimidos</h4>
+                        <span>Preco: 15.5Mt</span>
+                        <br>
+                        <span>Qt: 1</span>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary col-12">Adicionar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 mt-2">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="public/images/img (1).webp" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="fs-4">Comprimidos</h4>
+                        <span>Preco: 15.5Mt</span>
+                        <br>
+                        <span>Qt: 1</span>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary col-12">Adicionar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 mt-2">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="public/images/img (1).webp" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="fs-4">Comprimidos</h4>
+                        <span>Preco: 15.5Mt</span>
+                        <br>
+                        <span>Qt: 1</span>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary col-12">Adicionar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 mt-2">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="public/images/img (2).jpg" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="fs-4">Comprimidos</h4>
+                        <span>Preco: 15.5Mt</span>
+                        <br>
+                        <span>Qt: 1</span>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary col-12">Adicionar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
 
 
 
       
       <script src="public/js/bootstrap.bundle.js"></script>
-      <script src="public/js/jquery.js'"></script>
+      <script src="public/js/jquery.js"></script>
+      <script src="public/js/App.js"></script>
 </body>
 </html>
 
@@ -50,16 +135,34 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Registar Produto</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
+        <form action="" enctype="multipart/form-data" class="cadastrar">
         <div class="modal-body">
-        Adicionar 
+            <div class="row pt-2">
+                <div class="col-12">
+                    <label for="" class="form-label">Titulo:</label>
+                    <input type="text" name="titulo" id="" class="form-control"></div>
+            </div>
+            <div class="row pt-2">
+                <div class="col-12">
+                    <label for="" class="form-label">Imagens:</label>
+                    <input type="file" name="titulo" id="" class="form-control"></div>
+            </div>
+            <div class="row pt-2">
+                <div class="col-12">
+                    <label for="" class="form-label">Descricao:</label>
+                    <textarea name="descricap" id="" cols="10" rows="4" class="form-control"> </textarea>
+                </div>
+            </div>
         </div>
         <div class="modal-footer">
+            <input type="submit" value="cadastrar" class="btn btn-primary">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Understood</button>
+           
         </div>
+        </form>
       </div>
     </div>
   </div>
